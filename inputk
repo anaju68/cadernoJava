@@ -1,0 +1,44 @@
+fun main() {
+  println("Digite um número: ")              
+  var num1=readLine()!! 
+  var numero1=num1.toInt()
+  println("Digite outro número: ")
+  var num2=readLine()!!
+  var numero2=num2.toInt()
+  var soma=numero1+numero2                            
+  println("O resultado é: " +soma)                   
+  //agora inclua as funcinalidades de subtrção multiplicação e divisão
+  
+  println("Digite um número: ")
+  var nume1 = readLine()!!
+     var a = nume1.toInt()
+     println("O número é: " +num1)
+  println("Digite outro número: ")
+  var nume2 = readLine()!!
+  var b = nume2.toInt()
+  println("O número é: " +num2)
+  var subtração = a-b
+  println("O resultado é: " +subtração)
+  
+  println("Digite um número: ")
+  var numer1 = readLine()!!
+     var c = numer1.toInt()
+     println("O número é: " +numer1)
+  println("Digite outro número: ")
+  var numer2 = readLine()!!
+  var d = numer2.toInt()
+  println("O número é: " +numer2)
+  var multiplicação = c*d
+  println("O resultado é: " +multiplicação)
+
+ println("Digite um número: ")
+  var number1 = readLine()!!
+     var e = number1.toInt()
+     println("O número é: " +numero1)
+  println("Digite outro número: ")
+  var number2 = readLine()!!
+   var f = number2.toInt()
+  println("O número é: " +numero2)
+  var divisão = e/f
+  println("O resultado é: " +divisão)
+}                                        
